@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#iron-man{
+    height: 100vh;
+    background-image: url("https://w0.peakpx.com/wallpaper/73/96/HD-wallpaper-lionel-messi-argentine-footballer-football-star-best-footballer-of-the-world-portrait-argentina-national-football-team-football-argentina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#iron-man>.back-img{
+    color: white;
+    font-size: 100px;
+    font-style: italic;
+}
+#cr7{
+    height: 100vh;
+    background-image: url("https://s.yimg.com/ny/api/res/1.2/oX61JfJVjbzRoHmCGOy_2A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM4NDtjZj13ZWJw/https://media.zenfs.com/en/fourfourtwo_376/7fcdf3448a79a5245c2d7a01bdade1c5");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#cr7>.cr-img{
+    color: gold;
+    font-size: 100px;
+    font-style: italic;
+}

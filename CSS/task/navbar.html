@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar in css</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            background-color: black;
+            height:100px;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+        ul{
+            display: flex;
+            gap: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            list-style: none;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        nav>ul>li:hover{
+            color: red
+
+        }
+        nav>div>button{
+            margin: 5px;
+            padding: 10px;
+            border-radius: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        nav>div>button:hover{
+            background-color: blue;
+
+        }
+        nav>h2:hover{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>My logo</h2>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <div>
+            <button>LOGIN</button>
+            <button>SIGN UP</button>
+
+        </div>
+            
+    </nav>
+    
+</body>
+</html>

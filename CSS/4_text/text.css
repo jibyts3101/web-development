@@ -1,0 +1,15 @@
+.header > h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: aquamarine;
+    text-shadow: -3px -6px 5px black;
+    
+
+}
+.header > p{
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 20px;
+    line-height: 30px;
+}

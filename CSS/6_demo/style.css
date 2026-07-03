@@ -1,0 +1,20 @@
+.box{
+    background-color: black;
+    height: 100px;
+    color: yellow;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.box2{
+    background-color:darkgray;
+    color: black;
+    height:100px;
+    padding-top: 20px;
+    margin: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div tag example</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #nav{
+            background-color: orange;
+            display: flex;
+            height:80px;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        ul{
+            display: flex;
+            gap: 20px;
+
+        }
+        li{
+            list-style: none;
+            font-size: 18px;
+            text-transform: capitalize;
+            cursor: pointer;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+        #main{
+            height: 250px;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            color: black;
+        }
+        #section{
+            height: calc(100vh - 330px);
+            background-color: rosybrown;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .card{
+            height: 200px;
+            width: 300px;
+            background-color: white;
+            border-radius: 20px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 5px brown;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <h2>My logo</h2>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>contact</li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <h1>welcome to my application</h1>
+        <p>Here you will get 20% discount</p>
+        <button>shop now</button>
+    </div>
+    <div id="section">
+        
+        <div class="card">
+            <h3>I am card1</h3>
+        </div>
+        <div class="card">
+            <h3>I am card2</h3>
+        </div>
+        <div class="card">
+            <h3>I am card3</h3>
+        </div>
+
+
+    </div>
+</body>
+</html>
