@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+}
+.outer > .left{
+    flex-basis: 50%;
+    background: linear-gradient(red, yellow);
+    display: flex;
+    justify-content: space-around;
+}
+
+.left>.box{
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: white;
+}
+#b1{
+    order: 5;
+}
+#b2{
+    order:3;
+}
+.outer > .right{
+    flex-basis: 50%;
+    background-color: lightblue;
+
+}
